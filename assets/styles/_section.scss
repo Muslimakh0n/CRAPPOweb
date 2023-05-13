@@ -1,0 +1,90 @@
+// Bismillah
+
+section {
+  background-color: #0d0d2b;
+}
+
+.about__wrapper {
+  @include d-flex();
+  padding-top: 150px;
+  z-index: 2;
+}
+
+.about__main {
+  @include d-flex();
+}
+
+.about__text {
+  span {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+  }
+}
+
+.about-section {
+  position: relative;
+}
+
+.about-shadow-img {
+  position: absolute;
+  z-index: 9;
+  right: 0;
+  top: 0;
+}
+
+// .also{
+//     position: relative;
+//     &__shadow{
+//         position: absolute;
+//         background-image: url(../images/section-about-shadow.png);
+//         background-repeat: no-repeat;
+//         width: 260px;
+//         height: 260px;
+//         background-position: 82px 52px;
+//         z-index: 0;
+
+//     }
+
+// }
+
+// crapppo
+
+.crappo__btn {
+  @include bttn();
+  margin-top: 32px;
+}
+
+.crappo__contents {
+  h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+  }
+  p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    margin-top: 23px;
+  }
+}
+
+.crappo__left {
+  background-image: url(../images/Illustrations2.png);
+  background-repeat: no-repeat;
+  max-width: 604px;
+  width: 100%;
+  height: 473px;
+}
+
+.crappo__wrapper {
+  @include d-flex();
+}
+
+
+
+

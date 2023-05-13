@@ -1,0 +1,16 @@
+// Bismillah
+@mixin d-flex($justContent:space-between,$alignItem:center){
+    display: flex;
+    justify-content: $justContent;
+    align-items: $alignItem;
+}
+
+@mixin bttn ($bgColor:#3671E9,$borRadius:32px,$padding:16px 32px,$color:#fff){
+    background-color: $bgColor;
+    border-radius: $borRadius;
+    padding:$padding;
+    border: none;
+    color: $color;
+
+}
+

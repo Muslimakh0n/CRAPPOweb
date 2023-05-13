@@ -1,0 +1,131 @@
+// Bismillah
+main{
+  background-color: #0D0D2B;
+  
+}
+.main__content {
+  h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+  }
+  .main__text {
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 150%;
+      text-align: center;
+      color: #e0e0e0;
+    }
+  }
+}
+
+.main__div {
+  background-color: #fff;
+}
+.about__main{
+  gap: 24px;
+}
+
+
+.input{
+    border: none;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.select{
+  border: none;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.calculate__btn{
+  @include bttn();
+}
+.main__div{
+  width: 900px;
+  height: 150px;
+  margin-left: 100px;
+  margin-top: 60px;
+}
+.main{
+ 
+  &__top{
+    @include d-flex();
+    padding: 28px;
+    width: 942px;
+    height: 95px;
+    left: 249px;
+    top: 302px;
+    background: #FBFCFE;
+    border-radius: 16px 16px 0px 0px;
+  }
+  &__bottom{
+    padding: 28px ;
+    width: 942px;
+    height: 90px;
+    left: 249px;
+    top: 457px;
+    background: #FFFFFF;
+    mix-blend-mode: overlay;
+    box-shadow: 10px 50px 100px #a58ecf;
+    border-radius: 0px 0px 16px 16px;
+    h4{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 150%;
+
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #3671E9;
+    }
+    .price{
+      color: rgba(54, 113, 233, 1);
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 150%;
+      letter-spacing: 0.04em;
+
+    }
+    span{
+      margin-top: 20px;
+      color: #000;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 150%;
+      letter-spacing: 0.04em;
+      
+    }
+    p{
+      margin-top: 4px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      letter-spacing: 0.01em;
+      color: #828282;
+    }
+  }
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input::placeholder {
+  color: rgb(0, 0, 0);
+  opacity: 1; 
+}
+
+.input:-ms-input-placeholder { 
+  color: rgb(0, 0, 0);
+}
+
+.input::-ms-input-placeholder { 
+  color: rgb(0, 0, 0);
+}
